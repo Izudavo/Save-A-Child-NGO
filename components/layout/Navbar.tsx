@@ -40,7 +40,7 @@ export function Navbar() {
   ];
 
   return (
-    <div className="fixed top-4 inset-x-0 z-50 mx-auto w-full max-w-7xl px-4 md:px-6 pointer-events-none">
+    <div className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-full max-w-7xl px-4 md:px-6 pointer-events-none">
       <header className="w-full bg-white/80 backdrop-blur-md border border-zinc-200/80 rounded-2xl md:rounded-full shadow-[0_12px_40px_rgba(0,0,0,0.03)] transition-all duration-300 pointer-events-auto">
         <div className="px-6 h-16 md:h-14 flex items-center justify-between">
           
